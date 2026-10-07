@@ -1,0 +1,171 @@
+// .progressBar-slim>.progressBar--background {
+//   height:8px
+// }
+// .progressBar-slimmer>.progressBar--background {
+//   height:2px
+// }
+// .progressBar--background {
+//   display:inline-block;
+//   position:relative;
+//   width:100%;
+//   height:1em;
+//   overflow:hidden;
+//   border-radius:4px;
+//   border:1px solid var(--tdl-color-on-surface-variant-2);
+//   background-color:var(--tdl-color-surface-variant-3)
+// }
+// .progressBar--fill {
+//   height:inherit;
+//   -webkit-transition:width 0.5s;
+//   transition:width 0.5s;
+//   background-color:var(--tdl-color-semantic-positive);
+//   border-radius:inherit;
+//   margin-top:-1px
+// }
+// .progressBar--fill-danger {
+//   background-color:var(--tdl-color-semantic-negative)
+// }
+// .progressBar--fill-warning {
+//   background-color:var(--tdl-color-semantic-notice)
+// }
+// .progressBar--fill-darker {
+//   background-color:var(--tdl-color-surface-variant-3)
+// }
+// .progressBar--fill-current {
+//   background-color:var(--tdl-color-on-surface)
+// }
+// .progressBar--fill-fromRight {
+//   float:right
+// }
+// .progressBar--fill-stacked {
+//   position:absolute;
+//   top:0
+// }
+// .progressBar--fill-noTransition {
+//   -webkit-transition:none;
+//   transition:none
+// }
+// .progressBar--inlineCaption {
+//   display:-webkit-box;
+//   display:-ms-flexbox;
+//   display:flex;
+//   -webkit-box-pack:justify;
+//   -ms-flex-pack:justify;
+//   justify-content:space-between;
+//   -webkit-box-align:center;
+//   -ms-flex-align:center;
+//   align-items:center
+// }
+// .progressBar--inlineCaption-rightCaption {
+//   margin-left:8px;
+//   padding-right:4px
+// }
+// .progressBar--caption {
+//   margin-top:2px;
+//   overflow:hidden;
+//   color:var(--tdl-color-on-surface);
+//   font:var(--tdl-font-label-small)
+// }
+// .progressBar--caption .fa {
+//   margin-right:4px
+// }
+// .progressBar--topCaption {
+//   overflow:hidden;
+//   font:var(--tdl-font-label-small);
+//   color:var(--text-color, #1f3333);
+//   font-size:12px;
+//   font-weight:400;
+//   line-height:16px;
+//   text-align:right
+// }
+// .progressBar--caption-on-gray {
+//   color:var(--tdl-color-on-surface-variant-1)
+// }
+// .progressBar--captionPercent {
+//   float:right
+// }
+// .progressBar--caption-centered {
+//   text-align:center
+// }
+// .progressBar--caption-above {
+//   text-align:right;
+//   text-transform:none
+// }
+// .progressBar--caption-split {
+//   display:-webkit-box;
+//   display:-ms-flexbox;
+//   display:flex;
+//   -webkit-box-pack:justify;
+//   -ms-flex-pack:justify;
+//   justify-content:space-between
+// }
+
+// .submissionTimeChart {
+//   padding:12px 0;
+//   min-width:250px
+// }
+// .submissionTimeChart-complete .progressBar--fill {
+//   background-color:var(--tdl-color-semantic-positive)
+// }
+// .submissionTimeChart-warning .progressBar--fill {
+//   background-color:var(--tdl-color-semantic-informative)
+// }
+// .submissionTimeChart-neutral .progressBar--fill {
+//   background-color:var(--tdl-color-custom-gray)
+// }
+// .submissionTimeChart--releaseDate {
+//   float:left
+// }
+// .submissionTimeChart--dueDate {
+//   float:right;
+//   text-align:right
+// }
+// .submissionTimeChart--hardDueDate {
+//   float:right;
+//   clear:both;
+//   text-align:right
+// }
+// .submissionTimeChart--dueDetails {
+//   padding:0 2px
+// }
+// .submissionTimeChart--timeRemaining {
+//   float:right
+// }
+// .submissionTimeChart--lateStatus {
+//   float:left
+// }
+// @media screen and (max-width: 500px) {
+//   .submissionTimeChart--releaseDate {
+//     display:none
+//   }
+// }
+// .submissionTimeChart--date {
+//   font-size:12px;
+//   font-weight:700;
+//   text-transform:uppercase
+// }
+
+
+#gradescope-aggregator-extension-root {
+    padding: 10px;
+    margin: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        td {
+            margin: 5px;
+        }
+
+        .courseLink {
+            padding: 2px 4px;
+            border-radius: 3px;
+            text-decoration: none;
+        }
+
+    }
+}
